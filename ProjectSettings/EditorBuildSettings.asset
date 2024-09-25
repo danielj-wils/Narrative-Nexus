@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UI/MainMenu.unity
+    guid: 66575f36704cc17459440d31d4b506b8
+  - enabled: 1
+    path: Assets/Scenes/UI/Death.unity
+    guid: 444db8e0fde2bc94d9f93045fb222fb2
+  - enabled: 1
+    path: Assets/Scenes/UI/PlayerProfile.unity
+    guid: fdbc84086cad7734b8253dcf00d9c761
+  - enabled: 1
+    path: Assets/Scenes/UI/Tutorial.unity
+    guid: 4fd5a1c233b076d5a8b7ba747dda3146
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Void.unity
+    guid: 85fae14c5dddd1a44bf1b4bf25cd0b58
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Dungeon.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Lava.unity
+    guid: fd1da63aa63c6184093f7e9a5fbab4b3
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Meadow.unity
+    guid: c3604aaa8cb3290499a4de9aba8e4370
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Underwater.unity
+    guid: ac3728fee9b0aab43bc486eca8df6ca8
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Desert.unity
+    guid: 10f80fff863fe914086edce4b3ad4632
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Forest.unity
+    guid: 2abcc6672b0110c49b2fcb60d0186c4e
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Mountain.unity
+    guid: 9c96e6d309a3c2044983e503e3eb55d8
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Snow.unity
+    guid: a3ab67909ac6b2942a93b13943856882
+  - enabled: 1
+    path: Assets/Scenes/Scenes/City.unity
+    guid: 6212e795fa6a8b54b9836b03506d6384
+  m_configObjects: {}
