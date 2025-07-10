@@ -8302,7 +8302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &783646440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10596,7 +10596,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1014250690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14204,7 +14204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneVisitCount: 0
-  enemySpeedMultiplier: 1
+  enemySpeed: 1
   enemySpeedMultiplierCalculation: 0.05
   additionalEnemiesPerVisit: 2
   enemySpawnSpeedMultiplierCalculation: 0.98
@@ -14481,7 +14481,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1339055578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21922,7 +21922,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!225 &1821009777
 CanvasGroup:
   m_ObjectHideFlags: 0

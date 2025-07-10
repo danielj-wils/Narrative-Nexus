@@ -14,7 +14,7 @@ public class BlueCoinCollectableBehaviour : MonoBehaviour, ICollectableBehaviour
     //}
     //ScoreManager scoreManager = FindObjectOfType<ScoreManager>();
     {
-        SoundFXManager.instance.PlayerSoundFXClip(coinSound, transform, volume);
+        SoundFXManager.instance.PlayerSoundFXClip(coinSound, transform, volume, 0.8f, 1.2f);
         CoinManager.instance.IncrementBlueCoinsCollected();
 
         if (ScoreManager.instance != null)

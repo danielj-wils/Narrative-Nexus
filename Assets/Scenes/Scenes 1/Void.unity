@@ -10983,7 +10983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneVisitCount: 0
-  enemySpeedMultiplier: 1
+  enemySpeed: 1
   enemySpeedMultiplierCalculation: 0.05
   additionalEnemiesPerVisit: 0
   enemySpawnSpeedMultiplierCalculation: 0.98

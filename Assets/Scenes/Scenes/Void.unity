@@ -96,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: e734c19a14433f544b6ab43381f8a451, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1538,7 +1538,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &180319944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7861,7 +7861,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &983669917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10983,9 +10983,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneVisitCount: 0
-  enemySpeedMultiplier: 1
+  enemySpeed: 1
   enemySpeedMultiplierCalculation: 0.05
-  additionalEnemiesPerVisit: 0
+  additionalEnemiesPerVisit: 2
   enemySpawnSpeedMultiplierCalculation: 0.98
 --- !u!1 &1459971901
 GameObject:
@@ -11312,7 +11312,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!225 &1525186846
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -11937,7 +11937,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1651273310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15183,7 +15183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2110526178
 MonoBehaviour:
   m_ObjectHideFlags: 0

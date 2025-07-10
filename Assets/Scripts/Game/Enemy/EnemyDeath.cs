@@ -7,7 +7,7 @@ public class EnemyDeath : MonoBehaviour
 
     void OnDestroy()
     {
-        SoundFXManager.instance.PlayerSoundFXClip(enemyKilledSound, transform, enemyKilledVolume);
+        SoundFXManager.instance.PlayerSoundFXClip(enemyKilledSound, transform, enemyKilledVolume,1f,1f);
         if (EnemyManager.instance != null)
         {
             EnemyManager.instance.IncrementEnemiesKilled();

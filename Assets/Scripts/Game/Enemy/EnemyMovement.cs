@@ -35,7 +35,7 @@ public class EnemyMovement : MonoBehaviour
     void Start()
     {  
         maxSpeed = PlayerMovement.instance.speed - speedDifference;
-        speed = speed * DifficultyManager.instance.enemySpeedMultiplier;
+        speed = speed * DifficultyManager.instance.enemySpeed;
         StartCoroutine(IncreaseSpeedPeriodically());
     }
 

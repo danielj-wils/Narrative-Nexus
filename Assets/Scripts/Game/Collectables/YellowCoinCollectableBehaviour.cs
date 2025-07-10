@@ -10,7 +10,7 @@ public class YellowCoinCollectableBehaviour : MonoBehaviour, ICollectableBehavio
 
     public void OnCollected(GameObject player)
     {
-        SoundFXManager.instance.PlayerSoundFXClip(coinSound, transform, volume);
+        SoundFXManager.instance.PlayerSoundFXClip(coinSound, transform, volume, 0.8f, 1.2f);
         CoinManager.instance.IncrementYellowCoinsCollected();
 
         if (ScoreManager.instance != null)

@@ -53,7 +53,7 @@ public class PlayerShockwave : MonoBehaviour
     {
         if (canFireShockwave)
         {
-            SoundFXManager.instance.PlayerSoundFXClip(smokeBombSound, transform, smokeBombVolume);
+            SoundFXManager.instance.PlayerSoundFXClip(smokeBombSound, transform, smokeBombVolume,1f,1f);
             GameObject shockwave = Instantiate(shockwavePrefab, shockwaveOffset.position, transform.rotation);
             Rigidbody2D rigidbody = shockwave.GetComponent<Rigidbody2D>();
             shockwavesUsed++;

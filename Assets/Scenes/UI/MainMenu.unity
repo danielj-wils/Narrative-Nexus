@@ -341,7 +341,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1760629537}
         m_TargetAssemblyTypeName: ScenesManager, Assembly-CSharp
-        m_MethodName: LoadPlayerProfile
+        m_MethodName: LoadVoid
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

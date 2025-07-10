@@ -9,8 +9,8 @@ public class DifficultyManager : MonoBehaviour
     
     // Variables to track difficulty
     [SerializeField]public int sceneVisitCount = 0;
-    [SerializeField]public float enemySpeedMultiplier = 1.0f;
-    [SerializeField]public float enemySpeedMultiplierCalculation = 0.0025f;
+    [SerializeField]public float enemySpeed = 1.0f;
+    [SerializeField]public float enemySpeedMultiplierCalculation = 0.05f;
     [SerializeField]public int additionalEnemiesPerVisit = 2;
     [SerializeField]public float enemySpawnSpeedMultiplierCalculation = 0.98f;
 
@@ -58,7 +58,7 @@ public class DifficultyManager : MonoBehaviour
 
     public void AdjustDifficulty()
     {
-        enemySpeedMultiplier = 1.0f + (enemySpeedMultiplierCalculation * sceneVisitCount);  // Speed increases by 10% each visit
+        enemySpeed = 1.0f + (enemySpeedMultiplierCalculation * sceneVisitCount);  // Speed increases by 10% each visit
         //EnemySpawner.instance.maxEnemies += additionalEnemiesPerVisit * sceneVisitCount;
         //EnemySpawner.instance.bottomSpawnRange = Mathf.Max(EnemySpawner.instance.bottomSpawnRange * enemySpawnSpeedMultiplierCalculation, EnemySpawner.instance.minBottomSpawnRange);
         //EnemySpawner.instance.topSpawnRange = Mathf.Max(EnemySpawner.instance.topSpawnRange * enemySpawnSpeedMultiplierCalculation, EnemySpawner.instance.minTopSpawnRange);

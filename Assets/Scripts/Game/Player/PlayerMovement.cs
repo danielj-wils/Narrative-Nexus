@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 int numberOfIncrements = coinDifference / coinsForSpeedIncrease;
                 speed += numberOfIncrements * speedIncreaseAmount;
-                SoundFXManager.instance.PlayerSoundFXClip(rankUpSound, transform, volume);
+                SoundFXManager.instance.PlayerSoundFXClip(rankUpSound, transform, volume, 1f,1f);
                 lastCoinCountForSpeed = currentCoinCountForSpeed; // Update last coin count
             }
         }
@@ -81,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 int numberOfIncrements = coinDifference / coinsForAgilityIncrease;
                 rotationSpeed += numberOfIncrements * AgilityIncreaseAmount;
-                SoundFXManager.instance.PlayerSoundFXClip(rankUpSound, transform, volume);
+                SoundFXManager.instance.PlayerSoundFXClip(rankUpSound, transform, volume,1f,1f);
                 lastCoinCountForAgility = currentCoinCountForAgility; // Update last coin count
             }
         }

@@ -71,7 +71,7 @@ public class PlayerShoot : MonoBehaviour
               {
                   int numberOfIncrements = coinDifference / coinsForFireRateIncrease;
                   _timeBetweenShots -= numberOfIncrements * fireRateIncreaseAmount;
-                  SoundFXManager.instance.PlayerSoundFXClip(rankUpSound, transform, rankUpVolume);
+                  SoundFXManager.instance.PlayerSoundFXClip(rankUpSound, transform, rankUpVolume,1f,1f);
                   lastCoinCount = currentCoinCount; // Update last coin count
               }
           }
@@ -79,8 +79,8 @@ public class PlayerShoot : MonoBehaviour
 
     private void FireBullet()
     {
-        SoundFXManager.instance.PlayerSoundFXClip(shootSound, transform, shootVolume);
         GameObject bullet = Instantiate(_bulletPrefab, _gunOffset.position, transform.rotation);
+        SoundFXManager.instance.PlayerSoundFXClip(shootSound, transform, shootVolume, 0.5f, 2f);
         Rigidbody2D rigidbody = bullet.GetComponent<Rigidbody2D>();
 
         rigidbody.velocity = _bulletSpeed * transform.up;

@@ -49,7 +49,7 @@ public class PlayerDamagedInvincibility : MonoBehaviour
             {
                 int numberOfIncrements = coinDifference / coinsForInvincibilityIncrease;
                 invincibilityDuration += numberOfIncrements * InvicibilityIncreaseAmount;
-                SoundFXManager.instance.PlayerSoundFXClip(rankUpSound, transform, volume);
+                SoundFXManager.instance.PlayerSoundFXClip(rankUpSound, transform, volume, 1f, 1f);
                 lastCoinCount = currentCoinCountForInvincibility; // Update last coin count
             }
         }

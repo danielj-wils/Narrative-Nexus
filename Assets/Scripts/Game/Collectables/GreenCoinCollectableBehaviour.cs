@@ -10,7 +10,7 @@ public class GreenCoinCollectableBehaviour : MonoBehaviour, ICollectableBehaviou
 
     public void OnCollected(GameObject player)
     {
-        SoundFXManager.instance.PlayerSoundFXClip(coinSound, transform, volume);
+        SoundFXManager.instance.PlayerSoundFXClip(coinSound, transform, volume, 0.8f, 1.2f);
         CoinManager.instance.IncrementGreenCoinsCollected();
 
         if (ScoreManager.instance != null)

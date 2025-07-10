@@ -61,7 +61,7 @@ public class HealthController : MonoBehaviour
           if (coinDifference >= coinsForHealthIncrease)
           {
               AddHealth(HealthIncreaseAmount);
-              SoundFXManager.instance.PlayerSoundFXClip(healthUpSound, transform, healthUpVolume);
+              SoundFXManager.instance.PlayerSoundFXClip(healthUpSound, transform, healthUpVolume, 1f,1f);
               coinCount = currentCoinCount; 
           }
         }
@@ -81,7 +81,7 @@ public class HealthController : MonoBehaviour
 
         currentHealth -= damageAmount;
         CameraShake.Shake(duration:0.5f, strength:0.25f);
-        SoundFXManager.instance.PlayerSoundFXClip(healthDownSound, transform, healthDownVolume);
+        SoundFXManager.instance.PlayerSoundFXClip(healthDownSound, transform, healthDownVolume,1f,1f);
         onHealthChanged.Invoke();
 
         if (currentHealth < 0)
