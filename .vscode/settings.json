@@ -58,5 +58,5 @@
         "omnisharp.enableRoslynAnalyzers": true,
         "omnisharp.enableEditorConfigSupport": true
     },
-    "dotnet.defaultSolution": "Top-down shooter.sln"
+    "dotnet.defaultSolution": "Narrative-Nexus.sln"
 }
